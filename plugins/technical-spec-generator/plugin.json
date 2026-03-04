@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-technical-spec-generator",
+  "description": "AI-generated technical specification documents",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-technical-spec-generator": {
+      "url": "https://apphighway.com/api/mcp/technical-spec-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

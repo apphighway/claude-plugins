@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-semantic-search",
+  "description": "Search documents by meaning, not just keywords",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-semantic-search": {
+      "url": "https://apphighway.com/api/mcp/semantic-search",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-workflow-generator",
+  "description": "AI-generated automation workflows (n8n/Zapier format)",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-workflow-generator": {
+      "url": "https://apphighway.com/api/mcp/workflow-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

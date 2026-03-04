@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-code-converter",
+  "description": "Convert code between programming languages",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-code-converter": {
+      "url": "https://apphighway.com/api/mcp/code-converter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

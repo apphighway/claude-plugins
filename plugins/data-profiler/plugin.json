@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-data-profiler",
+  "description": "Profile CSV/JSON datasets with statistics and quality analysis",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-data-profiler": {
+      "url": "https://apphighway.com/api/mcp/data-profiler",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

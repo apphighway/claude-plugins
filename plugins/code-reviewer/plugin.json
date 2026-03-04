@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-code-reviewer",
+  "description": "AI-powered deep code review with security analysis and fix suggestions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-code-reviewer": {
+      "url": "https://apphighway.com/api/mcp/code-reviewer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

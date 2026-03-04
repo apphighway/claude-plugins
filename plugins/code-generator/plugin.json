@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-code-generator",
+  "description": "Generate code from natural language descriptions",
+  "version": "1.6.0",
+  "mcpServers": {
+    "apphighway-code-generator": {
+      "url": "https://apphighway.com/api/mcp/code-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

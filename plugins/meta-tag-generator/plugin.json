@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-meta-tag-generator",
+  "description": "Generate OG, Twitter Card, and Schema.org meta tags",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-meta-tag-generator": {
+      "url": "https://apphighway.com/api/mcp/meta-tag-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

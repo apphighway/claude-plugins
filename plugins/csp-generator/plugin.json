@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-csp-generator",
+  "description": "Generate Content Security Policy headers from rules",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-csp-generator": {
+      "url": "https://apphighway.com/api/mcp/csp-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

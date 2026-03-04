@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-sitemap-generator",
+  "description": "Generate XML sitemaps from URL lists",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-sitemap-generator": {
+      "url": "https://apphighway.com/api/mcp/sitemap-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-screenshot-capture",
+  "description": "Capture screenshots of any webpage",
+  "version": "1.6.0",
+  "mcpServers": {
+    "apphighway-screenshot-capture": {
+      "url": "https://apphighway.com/api/mcp/screenshot-capture",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-loan-calculator",
+  "description": "Calculate loan payments, interest, and amortization schedules",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-loan-calculator": {
+      "url": "https://apphighway.com/api/mcp/loan-calculator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

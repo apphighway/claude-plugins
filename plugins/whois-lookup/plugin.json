@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-whois-lookup",
+  "description": "Query domain registration information",
+  "version": "1.3.0",
+  "mcpServers": {
+    "apphighway-whois-lookup": {
+      "url": "https://apphighway.com/api/mcp/whois-lookup",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-entity-extraction",
+  "description": "Extract named entities from text using AI",
+  "version": "1.8.0",
+  "mcpServers": {
+    "apphighway-entity-extraction": {
+      "url": "https://apphighway.com/api/mcp/entity-extraction",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

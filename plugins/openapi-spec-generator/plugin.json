@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-openapi-spec-generator",
+  "description": "AI-generated OpenAPI 3.1 specifications from descriptions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-openapi-spec-generator": {
+      "url": "https://apphighway.com/api/mcp/openapi-spec-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

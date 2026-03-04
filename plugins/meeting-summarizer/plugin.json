@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-meeting-summarizer",
+  "description": "AI-powered meeting transcript analysis with action items and decisions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-meeting-summarizer": {
+      "url": "https://apphighway.com/api/mcp/meeting-summarizer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

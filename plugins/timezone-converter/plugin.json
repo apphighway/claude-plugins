@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-timezone-converter",
+  "description": "Convert times between timezones worldwide",
+  "version": "1.6.0",
+  "mcpServers": {
+    "apphighway-timezone-converter": {
+      "url": "https://apphighway.com/api/mcp/timezone-converter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

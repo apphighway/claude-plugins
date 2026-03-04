@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-dns-lookup",
+  "description": "Perform DNS queries for any domain",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-dns-lookup": {
+      "url": "https://apphighway.com/api/mcp/dns-lookup",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

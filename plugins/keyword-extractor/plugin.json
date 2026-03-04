@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-keyword-extractor",
+  "description": "Extract keywords and key phrases from text",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-keyword-extractor": {
+      "url": "https://apphighway.com/api/mcp/keyword-extractor",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

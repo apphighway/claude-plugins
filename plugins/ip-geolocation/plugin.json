@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-ip-geolocation",
+  "description": "Geolocate IP addresses worldwide",
+  "version": "1.6.0",
+  "mcpServers": {
+    "apphighway-ip-geolocation": {
+      "url": "https://apphighway.com/api/mcp/ip-geolocation",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-email-validator",
+  "description": "Validate email addresses with DNS and format checks",
+  "version": "1.7.0",
+  "mcpServers": {
+    "apphighway-email-validator": {
+      "url": "https://apphighway.com/api/mcp/email-validator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

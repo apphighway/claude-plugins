@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-docker-compose-generator",
+  "description": "AI-generated docker-compose.yml from service descriptions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-docker-compose-generator": {
+      "url": "https://apphighway.com/api/mcp/docker-compose-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

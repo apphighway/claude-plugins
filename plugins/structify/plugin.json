@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-structify",
+  "description": "Convert unstructured text to structured JSON using AI",
+  "version": "2.1.0",
+  "mcpServers": {
+    "apphighway-structify": {
+      "url": "https://apphighway.com/api/mcp/structify",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-regex-generator",
+  "description": "Generate regex patterns from natural language descriptions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-regex-generator": {
+      "url": "https://apphighway.com/api/mcp/regex-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

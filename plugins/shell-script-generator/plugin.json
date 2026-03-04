@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-shell-script-generator",
+  "description": "AI-generated shell scripts from descriptions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-shell-script-generator": {
+      "url": "https://apphighway.com/api/mcp/shell-script-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

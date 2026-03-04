@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-chmod-calculator",
+  "description": "Convert Unix file permissions between octal and symbolic formats",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-chmod-calculator": {
+      "url": "https://apphighway.com/api/mcp/chmod-calculator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-funnel-analyzer",
+  "description": "Analyze conversion funnels with AI insights",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-funnel-analyzer": {
+      "url": "https://apphighway.com/api/mcp/funnel-analyzer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

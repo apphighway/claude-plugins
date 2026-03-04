@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-pdf-to-text",
+  "description": "Extract text content from PDF documents",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-pdf-to-text": {
+      "url": "https://apphighway.com/api/mcp/pdf-to-text",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

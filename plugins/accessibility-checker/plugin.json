@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-accessibility-checker",
+  "description": "AI-powered WCAG 2.1 compliance checker",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-accessibility-checker": {
+      "url": "https://apphighway.com/api/mcp/accessibility-checker",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

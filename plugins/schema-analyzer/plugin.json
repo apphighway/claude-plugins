@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-schema-analyzer",
+  "description": "AI-powered database schema analysis with optimization suggestions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-schema-analyzer": {
+      "url": "https://apphighway.com/api/mcp/schema-analyzer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

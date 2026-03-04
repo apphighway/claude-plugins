@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-sql-optimizer",
+  "description": "AI-powered SQL query optimization with performance scoring and index suggestions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-sql-optimizer": {
+      "url": "https://apphighway.com/api/mcp/sql-optimizer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

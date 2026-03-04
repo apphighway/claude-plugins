@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-user-story-generator",
+  "description": "AI-generated user stories with acceptance criteria",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-user-story-generator": {
+      "url": "https://apphighway.com/api/mcp/user-story-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

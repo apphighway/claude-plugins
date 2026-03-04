@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-cors-config-generator",
+  "description": "Generate CORS configurations for multiple frameworks",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-cors-config-generator": {
+      "url": "https://apphighway.com/api/mcp/cors-config-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

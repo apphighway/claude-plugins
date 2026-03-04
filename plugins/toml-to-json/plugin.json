@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-toml-to-json",
+  "description": "Convert between TOML and JSON formats",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-toml-to-json": {
+      "url": "https://apphighway.com/api/mcp/toml-to-json",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

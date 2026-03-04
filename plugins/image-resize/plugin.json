@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-image-resize",
+  "description": "Resize and optimize images in bulk",
+  "version": "2.0.0",
+  "mcpServers": {
+    "apphighway-image-resize": {
+      "url": "https://apphighway.com/api/mcp/image-resize",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

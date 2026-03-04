@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-token-counter",
+  "description": "Count LLM tokens with model-specific ratios",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-token-counter": {
+      "url": "https://apphighway.com/api/mcp/token-counter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

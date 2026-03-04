@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-ical-generator",
+  "description": "Create calendar events in .ics format",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-ical-generator": {
+      "url": "https://apphighway.com/api/mcp/ical-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

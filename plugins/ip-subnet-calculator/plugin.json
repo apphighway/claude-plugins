@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-ip-subnet-calculator",
+  "description": "Calculate IPv4 subnet details from CIDR notation",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-ip-subnet-calculator": {
+      "url": "https://apphighway.com/api/mcp/ip-subnet-calculator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

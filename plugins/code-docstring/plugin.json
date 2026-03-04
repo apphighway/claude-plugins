@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-code-docstring",
+  "description": "Generate documentation for code functions",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-code-docstring": {
+      "url": "https://apphighway.com/api/mcp/code-docstring",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-business-name",
+  "description": "Generate creative business name suggestions",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-business-name": {
+      "url": "https://apphighway.com/api/mcp/business-name",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

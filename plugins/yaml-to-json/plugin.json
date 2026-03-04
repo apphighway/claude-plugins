@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-yaml-to-json",
+  "description": "Convert YAML to JSON with schema validation",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-yaml-to-json": {
+      "url": "https://apphighway.com/api/mcp/yaml-to-json",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

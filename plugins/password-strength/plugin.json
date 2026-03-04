@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-password-strength",
+  "description": "Analyze password strength with entropy and pattern detection",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-password-strength": {
+      "url": "https://apphighway.com/api/mcp/password-strength",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-currency-converter",
+  "description": "Convert between 150+ world currencies",
+  "version": "2.0.0",
+  "mcpServers": {
+    "apphighway-currency-converter": {
+      "url": "https://apphighway.com/api/mcp/currency-converter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

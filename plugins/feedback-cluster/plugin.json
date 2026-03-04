@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-feedback-cluster",
+  "description": "Cluster user feedback into themes",
+  "version": "1.2.0",
+  "mcpServers": {
+    "apphighway-feedback-cluster": {
+      "url": "https://apphighway.com/api/mcp/feedback-cluster",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

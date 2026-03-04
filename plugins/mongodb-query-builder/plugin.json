@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-mongodb-query-builder",
+  "description": "AI-powered natural language to MongoDB query conversion",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-mongodb-query-builder": {
+      "url": "https://apphighway.com/api/mcp/mongodb-query-builder",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

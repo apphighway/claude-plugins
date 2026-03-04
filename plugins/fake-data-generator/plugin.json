@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-fake-data-generator",
+  "description": "Generate realistic test data (names, emails, addresses)",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-fake-data-generator": {
+      "url": "https://apphighway.com/api/mcp/fake-data-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

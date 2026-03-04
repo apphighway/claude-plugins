@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-product-summary",
+  "description": "Generate product descriptions from features",
+  "version": "1.3.0",
+  "mcpServers": {
+    "apphighway-product-summary": {
+      "url": "https://apphighway.com/api/mcp/product-summary",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-unit-converter",
+  "description": "Convert between measurement units",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-unit-converter": {
+      "url": "https://apphighway.com/api/mcp/unit-converter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

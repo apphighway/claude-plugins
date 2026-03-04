@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-api-request-builder",
+  "description": "Build HTTP requests as cURL/fetch/axios/Python code",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-api-request-builder": {
+      "url": "https://apphighway.com/api/mcp/api-request-builder",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

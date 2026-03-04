@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-svg-optimizer",
+  "description": "Optimize SVGs by removing unnecessary elements",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-svg-optimizer": {
+      "url": "https://apphighway.com/api/mcp/svg-optimizer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-query-builder",
+  "description": "Convert natural language to SQL queries with schema context",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-query-builder": {
+      "url": "https://apphighway.com/api/mcp/query-builder",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

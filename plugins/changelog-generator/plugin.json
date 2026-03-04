@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-changelog-generator",
+  "description": "Generate changelogs from commit messages",
+  "version": "1.3.0",
+  "mcpServers": {
+    "apphighway-changelog-generator": {
+      "url": "https://apphighway.com/api/mcp/changelog-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

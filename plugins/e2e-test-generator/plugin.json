@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-e2e-test-generator",
+  "description": "AI-generated end-to-end tests (Playwright/Cypress)",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-e2e-test-generator": {
+      "url": "https://apphighway.com/api/mcp/e2e-test-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

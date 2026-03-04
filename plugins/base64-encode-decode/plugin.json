@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-base64-encode-decode",
+  "description": "Encode and decode Base64 strings",
+  "version": "1.2.0",
+  "mcpServers": {
+    "apphighway-base64-encode-decode": {
+      "url": "https://apphighway.com/api/mcp/base64-encode-decode",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

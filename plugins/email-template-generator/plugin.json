@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-email-template-generator",
+  "description": "AI-generated responsive HTML email templates",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-email-template-generator": {
+      "url": "https://apphighway.com/api/mcp/email-template-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

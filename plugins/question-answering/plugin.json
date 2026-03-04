@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-question-answering",
+  "description": "Answer questions based on provided context",
+  "version": "1.7.0",
+  "mcpServers": {
+    "apphighway-question-answering": {
+      "url": "https://apphighway.com/api/mcp/question-answering",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

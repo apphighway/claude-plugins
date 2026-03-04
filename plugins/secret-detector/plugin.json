@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-secret-detector",
+  "description": "Scan code for leaked secrets (API keys, tokens, passwords)",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-secret-detector": {
+      "url": "https://apphighway.com/api/mcp/secret-detector",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

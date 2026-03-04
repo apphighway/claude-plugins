@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-intent-detection",
+  "description": "Detect user intent from natural language",
+  "version": "1.3.0",
+  "mcpServers": {
+    "apphighway-intent-detection": {
+      "url": "https://apphighway.com/api/mcp/intent-detection",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

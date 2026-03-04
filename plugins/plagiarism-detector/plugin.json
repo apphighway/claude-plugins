@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-plagiarism-detector",
+  "description": "Detect plagiarism and content similarity",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-plagiarism-detector": {
+      "url": "https://apphighway.com/api/mcp/plagiarism-detector",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

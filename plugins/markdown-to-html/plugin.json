@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-markdown-to-html",
+  "description": "Render Markdown to sanitized HTML",
+  "version": "1.5.0",
+  "mcpServers": {
+    "apphighway-markdown-to-html": {
+      "url": "https://apphighway.com/api/mcp/markdown-to-html",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

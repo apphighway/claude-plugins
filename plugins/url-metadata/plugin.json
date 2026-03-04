@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-url-metadata",
+  "description": "Extract metadata from any URL",
+  "version": "1.8.0",
+  "mcpServers": {
+    "apphighway-url-metadata": {
+      "url": "https://apphighway.com/api/mcp/url-metadata",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

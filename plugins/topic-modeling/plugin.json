@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-topic-modeling",
+  "description": "Discover topics in text collections",
+  "version": "1.3.0",
+  "mcpServers": {
+    "apphighway-topic-modeling": {
+      "url": "https://apphighway.com/api/mcp/topic-modeling",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

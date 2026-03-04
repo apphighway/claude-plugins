@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-migration-generator",
+  "description": "Generate SQL migrations from schema diff descriptions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-migration-generator": {
+      "url": "https://apphighway.com/api/mcp/migration-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

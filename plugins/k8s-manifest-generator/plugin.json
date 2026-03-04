@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-k8s-manifest-generator",
+  "description": "AI-generated Kubernetes manifests (Deployment, Service, Ingress)",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-k8s-manifest-generator": {
+      "url": "https://apphighway.com/api/mcp/k8s-manifest-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

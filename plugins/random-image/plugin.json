@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-random-image",
+  "description": "Generate placeholder images for development",
+  "version": "1.2.0",
+  "mcpServers": {
+    "apphighway-random-image": {
+      "url": "https://apphighway.com/api/mcp/random-image",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

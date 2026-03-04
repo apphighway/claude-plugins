@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-readability-analyzer",
+  "description": "Analyze text readability with multiple metrics",
+  "version": "1.2.0",
+  "mcpServers": {
+    "apphighway-readability-analyzer": {
+      "url": "https://apphighway.com/api/mcp/readability-analyzer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

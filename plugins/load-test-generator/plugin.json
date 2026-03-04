@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-load-test-generator",
+  "description": "Generate load test scripts for k6, Locust, and Artillery",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-load-test-generator": {
+      "url": "https://apphighway.com/api/mcp/load-test-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

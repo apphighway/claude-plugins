@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-csv-to-json",
+  "description": "Convert CSV data to structured JSON with type inference",
+  "version": "1.8.0",
+  "mcpServers": {
+    "apphighway-csv-to-json": {
+      "url": "https://apphighway.com/api/mcp/csv-to-json",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

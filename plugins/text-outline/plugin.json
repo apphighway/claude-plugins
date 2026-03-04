@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-text-outline",
+  "description": "Generate structured outlines for any topic",
+  "version": "1.3.0",
+  "mcpServers": {
+    "apphighway-text-outline": {
+      "url": "https://apphighway.com/api/mcp/text-outline",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

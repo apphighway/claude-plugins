@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-utm-builder",
+  "description": "Build UTM-tagged URLs for campaign tracking",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-utm-builder": {
+      "url": "https://apphighway.com/api/mcp/utm-builder",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

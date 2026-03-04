@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-github-actions-generator",
+  "description": "AI-generated CI/CD workflows for GitHub Actions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-github-actions-generator": {
+      "url": "https://apphighway.com/api/mcp/github-actions-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

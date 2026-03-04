@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-pitch-deck-analyzer",
+  "description": "AI-powered pitch deck analysis with investor readiness scoring",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-pitch-deck-analyzer": {
+      "url": "https://apphighway.com/api/mcp/pitch-deck-analyzer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

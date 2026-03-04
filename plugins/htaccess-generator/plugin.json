@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-htaccess-generator",
+  "description": "Generate Apache .htaccess rules for redirects, security, and caching",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-htaccess-generator": {
+      "url": "https://apphighway.com/api/mcp/htaccess-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

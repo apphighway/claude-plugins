@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-review-summarizer",
+  "description": "Summarize product reviews into insights",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-review-summarizer": {
+      "url": "https://apphighway.com/api/mcp/review-summarizer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

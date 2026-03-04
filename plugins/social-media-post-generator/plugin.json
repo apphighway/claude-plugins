@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-social-media-post-generator",
+  "description": "AI-generated platform-optimized social media posts",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-social-media-post-generator": {
+      "url": "https://apphighway.com/api/mcp/social-media-post-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

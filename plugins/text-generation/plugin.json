@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-text-generation",
+  "description": "Generate text from prompts with style control",
+  "version": "2.0.0",
+  "mcpServers": {
+    "apphighway-text-generation": {
+      "url": "https://apphighway.com/api/mcp/text-generation",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

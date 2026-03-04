@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-webhook-builder",
+  "description": "Build and validate webhook payloads with HMAC signing",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-webhook-builder": {
+      "url": "https://apphighway.com/api/mcp/webhook-builder",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

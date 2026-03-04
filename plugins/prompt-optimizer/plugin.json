@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-prompt-optimizer",
+  "description": "AI-powered prompt optimization for LLMs",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-prompt-optimizer": {
+      "url": "https://apphighway.com/api/mcp/prompt-optimizer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

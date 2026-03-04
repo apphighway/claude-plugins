@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-ocr",
+  "description": "Extract text from images using AI vision",
+  "version": "1.8.0",
+  "mcpServers": {
+    "apphighway-ocr": {
+      "url": "https://apphighway.com/api/mcp/ocr",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

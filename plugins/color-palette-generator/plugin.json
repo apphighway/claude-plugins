@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-color-palette-generator",
+  "description": "Generate harmonious color palettes from a base color",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-color-palette-generator": {
+      "url": "https://apphighway.com/api/mcp/color-palette-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

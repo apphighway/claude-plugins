@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-invoice-generator",
+  "description": "Generate structured invoice data with line items, taxes, and totals",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-invoice-generator": {
+      "url": "https://apphighway.com/api/mcp/invoice-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

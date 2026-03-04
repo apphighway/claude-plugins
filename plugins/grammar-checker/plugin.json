@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-grammar-checker",
+  "description": "Check and correct grammar, spelling, and style",
+  "version": "1.9.0",
+  "mcpServers": {
+    "apphighway-grammar-checker": {
+      "url": "https://apphighway.com/api/mcp/grammar-checker",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-env-validator",
+  "description": "Validate .env files against schema definitions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-env-validator": {
+      "url": "https://apphighway.com/api/mcp/env-validator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

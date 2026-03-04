@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-qr-generator",
+  "description": "Generate QR codes with custom styling",
+  "version": "1.5.0",
+  "mcpServers": {
+    "apphighway-qr-generator": {
+      "url": "https://apphighway.com/api/mcp/qr-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-tone-rewriter",
+  "description": "Rewrite text in a different tone or style",
+  "version": "1.4.0",
+  "mcpServers": {
+    "apphighway-tone-rewriter": {
+      "url": "https://apphighway.com/api/mcp/tone-rewriter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

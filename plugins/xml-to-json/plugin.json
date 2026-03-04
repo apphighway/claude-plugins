@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-xml-to-json",
+  "description": "Parse XML documents into clean JSON",
+  "version": "1.6.0",
+  "mcpServers": {
+    "apphighway-xml-to-json": {
+      "url": "https://apphighway.com/api/mcp/xml-to-json",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

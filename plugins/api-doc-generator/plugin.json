@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-api-doc-generator",
+  "description": "Generate OpenAPI specs from code using AI",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-api-doc-generator": {
+      "url": "https://apphighway.com/api/mcp/api-doc-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

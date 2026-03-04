@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-nginx-config-generator",
+  "description": "Generate Nginx configuration files",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-nginx-config-generator": {
+      "url": "https://apphighway.com/api/mcp/nginx-config-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

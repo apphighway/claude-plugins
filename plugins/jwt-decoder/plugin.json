@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-jwt-decoder",
+  "description": "Decode JWT tokens showing header, payload, and expiry",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-jwt-decoder": {
+      "url": "https://apphighway.com/api/mcp/jwt-decoder",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

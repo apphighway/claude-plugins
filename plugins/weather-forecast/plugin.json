@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-weather-forecast",
+  "description": "Get weather forecasts for any location",
+  "version": "1.7.0",
+  "mcpServers": {
+    "apphighway-weather-forecast": {
+      "url": "https://apphighway.com/api/mcp/weather-forecast",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

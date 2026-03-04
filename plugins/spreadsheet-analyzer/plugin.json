@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-spreadsheet-analyzer",
+  "description": "Analyze CSV/JSON data for quality issues and statistics",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-spreadsheet-analyzer": {
+      "url": "https://apphighway.com/api/mcp/spreadsheet-analyzer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

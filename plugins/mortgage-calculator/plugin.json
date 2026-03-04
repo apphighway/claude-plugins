@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-mortgage-calculator",
+  "description": "Calculate mortgage payments with amortization schedule",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-mortgage-calculator": {
+      "url": "https://apphighway.com/api/mcp/mortgage-calculator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

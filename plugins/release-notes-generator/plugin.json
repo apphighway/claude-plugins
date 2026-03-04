@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-release-notes-generator",
+  "description": "AI-generated release notes from changes and commits",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-release-notes-generator": {
+      "url": "https://apphighway.com/api/mcp/release-notes-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

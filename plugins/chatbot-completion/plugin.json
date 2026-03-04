@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-chatbot-completion",
+  "description": "Generate conversational AI responses",
+  "version": "1.8.0",
+  "mcpServers": {
+    "apphighway-chatbot-completion": {
+      "url": "https://apphighway.com/api/mcp/chatbot-completion",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

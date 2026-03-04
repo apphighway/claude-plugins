@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-test-generator",
+  "description": "AI-generated unit tests from code (Jest, Vitest, pytest)",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-test-generator": {
+      "url": "https://apphighway.com/api/mcp/test-generator",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

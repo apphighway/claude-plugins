@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-sql-formatter",
+  "description": "Format and indent SQL queries for readability",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-sql-formatter": {
+      "url": "https://apphighway.com/api/mcp/sql-formatter",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

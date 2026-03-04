@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-contract-analyzer",
+  "description": "AI-powered legal document analysis with risk assessment and plain-language summary",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-contract-analyzer": {
+      "url": "https://apphighway.com/api/mcp/contract-analyzer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

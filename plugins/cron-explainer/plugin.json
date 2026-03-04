@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-cron-explainer",
+  "description": "Translate cron expressions to human-readable descriptions",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-cron-explainer": {
+      "url": "https://apphighway.com/api/mcp/cron-explainer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

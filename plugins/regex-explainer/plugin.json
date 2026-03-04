@@ -1,0 +1,13 @@
+{
+  "name": "apphighway-regex-explainer",
+  "description": "Explain, generate, and test regular expressions with AI and server-side execution",
+  "version": "1.0.0",
+  "mcpServers": {
+    "apphighway-regex-explainer": {
+      "url": "https://apphighway.com/api/mcp/regex-explainer",
+      "headers": {
+        "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+      }
+    }
+  }
+}

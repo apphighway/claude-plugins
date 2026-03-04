@@ -1,0 +1,9 @@
+{
+  "apphighway-crypto-price": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/crypto-price",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

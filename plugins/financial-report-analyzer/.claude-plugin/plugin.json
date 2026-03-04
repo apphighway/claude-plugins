@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-financial-report-analyzer",
+  "description": "AI-powered financial report analysis with KPIs and recommendations",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-yaml-to-json",
+  "description": "Convert YAML to JSON with schema validation",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

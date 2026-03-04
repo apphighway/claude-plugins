@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-markdown-to-html",
+  "description": "Render Markdown to sanitized HTML",
+  "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

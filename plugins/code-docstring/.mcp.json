@@ -1,0 +1,9 @@
+{
+  "apphighway-code-docstring": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/code-docstring",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

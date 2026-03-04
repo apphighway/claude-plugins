@@ -1,0 +1,9 @@
+{
+  "apphighway-readability-analyzer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/readability-analyzer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

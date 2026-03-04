@@ -1,0 +1,9 @@
+{
+  "apphighway-csp-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/csp-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

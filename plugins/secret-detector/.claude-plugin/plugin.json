@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-secret-detector",
+  "description": "Scan code for leaked secrets (API keys, tokens, passwords)",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-funnel-analyzer",
+  "description": "Analyze conversion funnels with AI insights",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

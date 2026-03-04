@@ -1,0 +1,9 @@
+{
+  "apphighway-mortgage-calculator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/mortgage-calculator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

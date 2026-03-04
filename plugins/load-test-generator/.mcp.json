@@ -1,0 +1,9 @@
+{
+  "apphighway-load-test-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/load-test-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

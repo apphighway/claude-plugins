@@ -1,0 +1,9 @@
+{
+  "apphighway-pitch-deck-analyzer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/pitch-deck-analyzer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

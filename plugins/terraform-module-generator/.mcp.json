@@ -1,0 +1,9 @@
+{
+  "apphighway-terraform-module-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/terraform-module-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

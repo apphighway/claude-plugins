@@ -1,0 +1,9 @@
+{
+  "apphighway-social-media-post-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/social-media-post-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

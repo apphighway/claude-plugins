@@ -1,0 +1,9 @@
+{
+  "apphighway-url-shortener": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/url-shortener",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

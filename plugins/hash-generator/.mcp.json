@@ -1,0 +1,9 @@
+{
+  "apphighway-hash-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/hash-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

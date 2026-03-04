@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-k8s-manifest-generator",
+  "description": "AI-generated Kubernetes manifests (Deployment, Service, Ingress)",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

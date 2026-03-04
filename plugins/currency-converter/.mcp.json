@@ -1,0 +1,9 @@
+{
+  "apphighway-currency-converter": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/currency-converter",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

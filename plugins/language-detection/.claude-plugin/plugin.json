@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-language-detection",
+  "description": "Detect the language of any text",
+  "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-regex-tester",
+  "description": "Test regex patterns with captures and explanations",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

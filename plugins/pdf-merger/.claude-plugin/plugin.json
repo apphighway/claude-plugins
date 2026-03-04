@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-pdf-merger",
+  "description": "Merge multiple PDF documents into one",
+  "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "apphighway-number-summarizer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/number-summarizer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-text-embedding",
+  "description": "Generate vector embeddings for text",
+  "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

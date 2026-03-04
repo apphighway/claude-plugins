@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-prometheus-query-builder",
+  "description": "AI-powered natural language to PromQL conversion",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

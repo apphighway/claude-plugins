@@ -1,0 +1,9 @@
+{
+  "apphighway-weather-forecast": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/weather-forecast",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

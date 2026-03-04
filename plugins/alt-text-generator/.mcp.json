@@ -1,0 +1,9 @@
+{
+  "apphighway-alt-text-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/alt-text-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

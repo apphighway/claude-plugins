@@ -1,0 +1,9 @@
+{
+  "apphighway-profanity-filter": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/profanity-filter",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

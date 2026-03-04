@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-robots-txt-generator",
+  "description": "Generate robots.txt from rules",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-alt-text-generator",
+  "description": "Generate accessible alt text descriptions following WCAG guidelines",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

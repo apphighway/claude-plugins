@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-semver-calculator",
+  "description": "Parse, compare, and validate semantic versions and ranges",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

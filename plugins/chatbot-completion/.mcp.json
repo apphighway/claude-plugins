@@ -1,0 +1,9 @@
+{
+  "apphighway-chatbot-completion": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/chatbot-completion",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

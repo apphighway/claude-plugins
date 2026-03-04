@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-prompt-optimizer",
+  "description": "AI-powered prompt optimization for LLMs",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

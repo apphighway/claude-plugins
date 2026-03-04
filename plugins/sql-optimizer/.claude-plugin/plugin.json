@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-sql-optimizer",
+  "description": "AI-powered SQL query optimization with performance scoring and index suggestions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-workflow-generator",
+  "description": "AI-generated automation workflows (n8n/Zapier format)",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

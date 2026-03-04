@@ -1,0 +1,9 @@
+{
+  "apphighway-workflow-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/workflow-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

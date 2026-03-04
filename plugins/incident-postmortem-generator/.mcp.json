@@ -1,0 +1,9 @@
+{
+  "apphighway-incident-postmortem-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/incident-postmortem-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-content-classifier",
+  "description": "Classify text into custom categories using AI",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

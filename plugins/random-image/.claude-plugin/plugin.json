@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-random-image",
+  "description": "Generate placeholder images for development",
+  "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "apphighway-data-anonymizer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/data-anonymizer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "apphighway-language-translation": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/language-translation",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

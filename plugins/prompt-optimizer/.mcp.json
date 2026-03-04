@@ -1,0 +1,9 @@
+{
+  "apphighway-prompt-optimizer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/prompt-optimizer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "apphighway-grammar-checker": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/grammar-checker",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

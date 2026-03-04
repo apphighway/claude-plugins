@@ -1,0 +1,9 @@
+{
+  "apphighway-feedback-cluster": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/feedback-cluster",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "apphighway-github-actions-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/github-actions-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

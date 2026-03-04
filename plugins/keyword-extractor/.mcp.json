@@ -1,0 +1,9 @@
+{
+  "apphighway-keyword-extractor": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/keyword-extractor",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

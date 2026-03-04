@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-spreadsheet-analyzer",
+  "description": "Analyze CSV/JSON data for quality issues and statistics",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

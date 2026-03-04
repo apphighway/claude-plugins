@@ -1,0 +1,9 @@
+{
+  "apphighway-text-outline": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/text-outline",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

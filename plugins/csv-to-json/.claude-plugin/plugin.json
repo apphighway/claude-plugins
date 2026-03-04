@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-csv-to-json",
+  "description": "Convert CSV data to structured JSON with type inference",
+  "version": "1.8.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

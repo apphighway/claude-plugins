@@ -1,0 +1,9 @@
+{
+  "apphighway-text-embedding": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/text-embedding",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

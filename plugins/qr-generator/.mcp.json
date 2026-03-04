@@ -1,0 +1,9 @@
+{
+  "apphighway-qr-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/qr-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

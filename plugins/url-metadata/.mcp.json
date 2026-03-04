@@ -1,0 +1,9 @@
+{
+  "apphighway-url-metadata": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/url-metadata",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

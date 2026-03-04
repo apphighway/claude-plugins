@@ -1,0 +1,9 @@
+{
+  "apphighway-regex-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/regex-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

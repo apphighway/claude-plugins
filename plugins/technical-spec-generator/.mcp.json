@@ -1,0 +1,9 @@
+{
+  "apphighway-technical-spec-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/technical-spec-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

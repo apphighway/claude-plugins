@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-meta-tag-generator",
+  "description": "Generate OG, Twitter Card, and Schema.org meta tags",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

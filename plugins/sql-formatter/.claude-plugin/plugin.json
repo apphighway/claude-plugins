@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-sql-formatter",
+  "description": "Format and indent SQL queries for readability",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

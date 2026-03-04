@@ -1,0 +1,9 @@
+{
+  "apphighway-test-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/test-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

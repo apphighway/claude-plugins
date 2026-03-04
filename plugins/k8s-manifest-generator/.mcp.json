@@ -1,0 +1,9 @@
+{
+  "apphighway-k8s-manifest-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/k8s-manifest-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

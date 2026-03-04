@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-base64-encode-decode",
+  "description": "Encode and decode Base64 strings",
+  "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

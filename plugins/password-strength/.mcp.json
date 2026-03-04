@@ -1,0 +1,9 @@
+{
+  "apphighway-password-strength": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/password-strength",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

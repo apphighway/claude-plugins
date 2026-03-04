@@ -1,0 +1,9 @@
+{
+  "apphighway-shell-script-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/shell-script-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

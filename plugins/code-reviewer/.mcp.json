@@ -1,0 +1,9 @@
+{
+  "apphighway-code-reviewer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/code-reviewer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

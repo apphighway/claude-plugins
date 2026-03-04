@@ -1,0 +1,9 @@
+{
+  "apphighway-question-answering": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/question-answering",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

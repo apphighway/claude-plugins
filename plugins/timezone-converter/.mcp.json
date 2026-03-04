@@ -1,0 +1,9 @@
+{
+  "apphighway-timezone-converter": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/timezone-converter",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

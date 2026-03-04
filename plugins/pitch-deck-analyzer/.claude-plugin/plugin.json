@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-pitch-deck-analyzer",
+  "description": "AI-powered pitch deck analysis with investor readiness scoring",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

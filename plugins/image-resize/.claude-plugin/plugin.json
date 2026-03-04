@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-image-resize",
+  "description": "Resize and optimize images in bulk",
+  "version": "2.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

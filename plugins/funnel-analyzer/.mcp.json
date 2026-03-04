@@ -1,0 +1,9 @@
+{
+  "apphighway-funnel-analyzer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/funnel-analyzer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

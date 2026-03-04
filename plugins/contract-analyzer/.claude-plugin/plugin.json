@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-contract-analyzer",
+  "description": "AI-powered legal document analysis with risk assessment and plain-language summary",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

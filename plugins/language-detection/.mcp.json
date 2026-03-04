@@ -1,0 +1,9 @@
+{
+  "apphighway-language-detection": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/language-detection",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

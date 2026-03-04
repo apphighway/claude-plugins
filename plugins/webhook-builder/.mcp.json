@@ -1,0 +1,9 @@
+{
+  "apphighway-webhook-builder": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/webhook-builder",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

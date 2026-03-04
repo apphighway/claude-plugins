@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-uuid-generator",
+  "description": "Generate UUIDs (v4, v5, v7) in bulk",
+  "version": "2.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

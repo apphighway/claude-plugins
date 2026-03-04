@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-toml-to-json",
+  "description": "Convert between TOML and JSON formats",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

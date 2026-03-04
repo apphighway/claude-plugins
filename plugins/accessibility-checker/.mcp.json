@@ -1,0 +1,9 @@
+{
+  "apphighway-accessibility-checker": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/accessibility-checker",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

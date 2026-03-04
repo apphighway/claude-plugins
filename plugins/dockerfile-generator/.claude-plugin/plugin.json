@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-dockerfile-generator",
+  "description": "AI-generated optimized Dockerfiles from tech stack",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

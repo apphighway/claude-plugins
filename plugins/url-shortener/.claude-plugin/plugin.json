@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-url-shortener",
+  "description": "Generate short URLs with tracking",
+  "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

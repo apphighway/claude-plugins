@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-email-validator",
+  "description": "Validate email addresses with DNS and format checks",
+  "version": "1.7.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

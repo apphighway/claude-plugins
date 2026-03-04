@@ -1,0 +1,9 @@
+{
+  "apphighway-plagiarism-detector": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/plagiarism-detector",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

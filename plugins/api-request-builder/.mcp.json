@@ -1,0 +1,9 @@
+{
+  "apphighway-api-request-builder": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/api-request-builder",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

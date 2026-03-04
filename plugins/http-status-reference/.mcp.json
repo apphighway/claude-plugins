@@ -1,0 +1,9 @@
+{
+  "apphighway-http-status-reference": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/http-status-reference",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

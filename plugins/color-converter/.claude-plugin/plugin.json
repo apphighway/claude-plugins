@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-color-converter",
+  "description": "Convert between color formats (HEX, RGB, HSL)",
+  "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

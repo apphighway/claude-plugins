@@ -1,0 +1,9 @@
+{
+  "apphighway-churn-predictor": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/churn-predictor",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

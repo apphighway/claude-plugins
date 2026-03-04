@@ -1,0 +1,9 @@
+{
+  "apphighway-meta-tag-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/meta-tag-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

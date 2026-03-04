@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-api-request-builder",
+  "description": "Build HTTP requests as cURL/fetch/axios/Python code",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

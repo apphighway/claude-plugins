@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-json-to-csv",
+  "description": "Convert JSON arrays to CSV format",
+  "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

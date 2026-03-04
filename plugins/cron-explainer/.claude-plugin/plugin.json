@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-cron-explainer",
+  "description": "Translate cron expressions to human-readable descriptions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

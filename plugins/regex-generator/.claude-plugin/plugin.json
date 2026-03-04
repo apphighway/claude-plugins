@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-regex-generator",
+  "description": "Generate regex patterns from natural language descriptions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

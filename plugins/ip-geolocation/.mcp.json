@@ -1,0 +1,9 @@
+{
+  "apphighway-ip-geolocation": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/ip-geolocation",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

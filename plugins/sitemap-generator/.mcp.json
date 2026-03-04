@@ -1,0 +1,9 @@
+{
+  "apphighway-sitemap-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/sitemap-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

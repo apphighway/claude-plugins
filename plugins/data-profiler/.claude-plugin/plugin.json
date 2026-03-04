@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-data-profiler",
+  "description": "Profile CSV/JSON datasets with statistics and quality analysis",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

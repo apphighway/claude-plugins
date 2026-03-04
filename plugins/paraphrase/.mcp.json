@@ -1,0 +1,9 @@
+{
+  "apphighway-paraphrase": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/paraphrase",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

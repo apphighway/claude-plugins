@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-text-summarization",
+  "description": "Summarize long texts into concise summaries",
+  "version": "2.1.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

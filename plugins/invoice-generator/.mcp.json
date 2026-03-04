@@ -1,0 +1,9 @@
+{
+  "apphighway-invoice-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/invoice-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

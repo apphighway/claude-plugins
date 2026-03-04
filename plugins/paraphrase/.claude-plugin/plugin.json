@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-paraphrase",
+  "description": "Rewrite text while preserving meaning",
+  "version": "1.6.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

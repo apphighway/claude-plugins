@@ -1,0 +1,9 @@
+{
+  "apphighway-email-template-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/email-template-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

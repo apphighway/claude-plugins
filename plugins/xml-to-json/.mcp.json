@@ -1,0 +1,9 @@
+{
+  "apphighway-xml-to-json": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/xml-to-json",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

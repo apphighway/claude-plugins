@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-ip-subnet-calculator",
+  "description": "Calculate IPv4 subnet details from CIDR notation",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-ip-geolocation",
+  "description": "Geolocate IP addresses worldwide",
+  "version": "1.6.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

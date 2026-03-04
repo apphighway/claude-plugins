@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-currency-converter",
+  "description": "Convert between 150+ world currencies",
+  "version": "2.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

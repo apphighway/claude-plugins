@@ -1,0 +1,9 @@
+{
+  "apphighway-image-resize": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/image-resize",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

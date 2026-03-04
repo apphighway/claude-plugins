@@ -1,0 +1,9 @@
+{
+  "apphighway-openapi-spec-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/openapi-spec-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

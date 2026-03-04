@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-barcode-generator",
+  "description": "Generate barcodes in various formats",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

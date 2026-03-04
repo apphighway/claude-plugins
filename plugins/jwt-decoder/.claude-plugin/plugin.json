@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-jwt-decoder",
+  "description": "Decode JWT tokens showing header, payload, and expiry",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

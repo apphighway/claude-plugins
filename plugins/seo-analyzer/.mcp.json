@@ -1,0 +1,9 @@
+{
+  "apphighway-seo-analyzer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/seo-analyzer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

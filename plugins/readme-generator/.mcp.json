@@ -1,0 +1,9 @@
+{
+  "apphighway-readme-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/readme-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

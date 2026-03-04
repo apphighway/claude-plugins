@@ -1,0 +1,9 @@
+{
+  "apphighway-semantic-search": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/semantic-search",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

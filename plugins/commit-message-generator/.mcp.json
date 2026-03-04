@@ -1,0 +1,9 @@
+{
+  "apphighway-commit-message-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/commit-message-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

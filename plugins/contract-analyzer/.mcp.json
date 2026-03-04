@@ -1,0 +1,9 @@
+{
+  "apphighway-contract-analyzer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/contract-analyzer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

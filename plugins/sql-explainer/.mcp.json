@@ -1,0 +1,9 @@
+{
+  "apphighway-sql-explainer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/sql-explainer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

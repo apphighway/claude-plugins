@@ -1,0 +1,9 @@
+{
+  "apphighway-pdf-to-text": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/pdf-to-text",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

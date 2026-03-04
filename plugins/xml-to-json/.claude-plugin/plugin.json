@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-xml-to-json",
+  "description": "Parse XML documents into clean JSON",
+  "version": "1.6.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

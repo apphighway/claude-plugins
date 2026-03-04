@@ -1,0 +1,9 @@
+{
+  "apphighway-json-validator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/json-validator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

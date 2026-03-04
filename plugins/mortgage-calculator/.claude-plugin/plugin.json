@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-mortgage-calculator",
+  "description": "Calculate mortgage payments with amortization schedule",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

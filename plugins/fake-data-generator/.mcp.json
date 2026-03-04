@@ -1,0 +1,9 @@
+{
+  "apphighway-fake-data-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/fake-data-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

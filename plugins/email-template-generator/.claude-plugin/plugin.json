@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-email-template-generator",
+  "description": "AI-generated responsive HTML email templates",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

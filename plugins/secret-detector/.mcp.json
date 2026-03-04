@@ -1,0 +1,9 @@
+{
+  "apphighway-secret-detector": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/secret-detector",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

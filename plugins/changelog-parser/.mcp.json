@@ -1,0 +1,9 @@
+{
+  "apphighway-changelog-parser": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/changelog-parser",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

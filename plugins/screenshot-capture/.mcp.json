@@ -1,0 +1,9 @@
+{
+  "apphighway-screenshot-capture": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/screenshot-capture",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

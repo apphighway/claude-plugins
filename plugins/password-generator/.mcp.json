@@ -1,0 +1,9 @@
+{
+  "apphighway-password-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/password-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "apphighway-css-minifier": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/css-minifier",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

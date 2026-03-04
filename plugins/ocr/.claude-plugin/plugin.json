@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-ocr",
+  "description": "Extract text from images using AI vision",
+  "version": "1.8.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

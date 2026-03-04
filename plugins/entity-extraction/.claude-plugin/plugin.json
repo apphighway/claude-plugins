@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-entity-extraction",
+  "description": "Extract named entities from text using AI",
+  "version": "1.8.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

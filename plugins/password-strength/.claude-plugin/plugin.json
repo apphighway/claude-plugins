@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-password-strength",
+  "description": "Analyze password strength with entropy and pattern detection",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

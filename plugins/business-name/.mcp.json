@@ -1,0 +1,9 @@
+{
+  "apphighway-business-name": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/business-name",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

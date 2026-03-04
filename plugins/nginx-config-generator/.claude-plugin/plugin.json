@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-nginx-config-generator",
+  "description": "Generate Nginx configuration files",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

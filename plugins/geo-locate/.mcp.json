@@ -1,0 +1,9 @@
+{
+  "apphighway-geo-locate": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/geo-locate",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

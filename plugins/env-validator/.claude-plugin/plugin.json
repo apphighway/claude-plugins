@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-env-validator",
+  "description": "Validate .env files against schema definitions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

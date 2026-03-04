@@ -1,0 +1,9 @@
+{
+  "apphighway-csv-to-json": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/csv-to-json",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

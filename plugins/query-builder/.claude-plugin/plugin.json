@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-query-builder",
+  "description": "Convert natural language to SQL queries with schema context",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

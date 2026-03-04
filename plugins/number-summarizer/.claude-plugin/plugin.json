@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-number-summarizer",
+  "description": "Calculate statistics from number sets",
+  "version": "1.3.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

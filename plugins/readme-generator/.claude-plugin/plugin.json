@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-readme-generator",
+  "description": "AI-generated project README from description and tech stack",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

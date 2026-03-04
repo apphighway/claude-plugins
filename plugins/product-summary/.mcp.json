@@ -1,0 +1,9 @@
+{
+  "apphighway-product-summary": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/product-summary",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

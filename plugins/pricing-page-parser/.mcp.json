@@ -1,0 +1,9 @@
+{
+  "apphighway-pricing-page-parser": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/pricing-page-parser",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

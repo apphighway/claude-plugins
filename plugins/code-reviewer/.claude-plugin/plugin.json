@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-code-reviewer",
+  "description": "AI-powered deep code review with security analysis and fix suggestions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

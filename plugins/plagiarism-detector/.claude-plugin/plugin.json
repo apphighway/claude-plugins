@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-plagiarism-detector",
+  "description": "Detect plagiarism and content similarity",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

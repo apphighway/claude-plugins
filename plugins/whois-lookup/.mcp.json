@@ -1,0 +1,9 @@
+{
+  "apphighway-whois-lookup": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/whois-lookup",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

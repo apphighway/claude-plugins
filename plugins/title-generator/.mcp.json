@@ -1,0 +1,9 @@
+{
+  "apphighway-title-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/title-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

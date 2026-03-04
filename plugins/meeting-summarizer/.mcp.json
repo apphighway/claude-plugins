@@ -1,0 +1,9 @@
+{
+  "apphighway-meeting-summarizer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/meeting-summarizer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

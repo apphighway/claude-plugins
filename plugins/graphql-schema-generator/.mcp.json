@@ -1,0 +1,9 @@
+{
+  "apphighway-graphql-schema-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/graphql-schema-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

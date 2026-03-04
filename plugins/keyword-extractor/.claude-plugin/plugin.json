@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-keyword-extractor",
+  "description": "Extract keywords and key phrases from text",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

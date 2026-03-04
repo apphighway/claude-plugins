@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-security-headers-analyzer",
+  "description": "Analyze HTTP security headers with scoring",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

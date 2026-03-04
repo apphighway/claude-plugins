@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-text-generation",
+  "description": "Generate text from prompts with style control",
+  "version": "2.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

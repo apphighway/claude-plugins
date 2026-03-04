@@ -1,0 +1,9 @@
+{
+  "apphighway-htaccess-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/htaccess-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

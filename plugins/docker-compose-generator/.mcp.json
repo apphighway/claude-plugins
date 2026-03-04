@@ -1,0 +1,9 @@
+{
+  "apphighway-docker-compose-generator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/docker-compose-generator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

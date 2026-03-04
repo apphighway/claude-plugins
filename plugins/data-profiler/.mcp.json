@@ -1,0 +1,9 @@
+{
+  "apphighway-data-profiler": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/data-profiler",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

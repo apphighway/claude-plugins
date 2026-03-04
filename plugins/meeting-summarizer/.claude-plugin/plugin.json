@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-meeting-summarizer",
+  "description": "AI-powered meeting transcript analysis with action items and decisions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

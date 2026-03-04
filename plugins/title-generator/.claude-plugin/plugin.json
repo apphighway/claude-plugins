@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-title-generator",
+  "description": "Generate catchy titles and headlines",
+  "version": "1.3.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

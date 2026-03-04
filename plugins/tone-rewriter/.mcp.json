@@ -1,0 +1,9 @@
+{
+  "apphighway-tone-rewriter": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/tone-rewriter",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

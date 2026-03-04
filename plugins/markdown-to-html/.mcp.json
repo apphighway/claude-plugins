@@ -1,0 +1,9 @@
+{
+  "apphighway-markdown-to-html": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/markdown-to-html",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

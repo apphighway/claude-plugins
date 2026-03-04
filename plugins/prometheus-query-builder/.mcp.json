@@ -1,0 +1,9 @@
+{
+  "apphighway-prometheus-query-builder": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/prometheus-query-builder",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

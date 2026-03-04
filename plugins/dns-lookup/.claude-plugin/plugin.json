@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-dns-lookup",
+  "description": "Perform DNS queries for any domain",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

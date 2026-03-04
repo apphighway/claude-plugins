@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-graphql-schema-generator",
+  "description": "AI-generated GraphQL SDL schemas from descriptions",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

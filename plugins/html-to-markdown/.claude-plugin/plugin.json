@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-html-to-markdown",
+  "description": "Convert HTML pages to clean Markdown",
+  "version": "1.7.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

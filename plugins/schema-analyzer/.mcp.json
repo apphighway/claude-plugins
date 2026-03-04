@@ -1,0 +1,9 @@
+{
+  "apphighway-schema-analyzer": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/schema-analyzer",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

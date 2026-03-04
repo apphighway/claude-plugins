@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-password-generator",
+  "description": "Generate secure random passwords",
+  "version": "1.3.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

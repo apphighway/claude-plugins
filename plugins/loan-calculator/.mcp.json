@@ -1,0 +1,9 @@
+{
+  "apphighway-loan-calculator": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/loan-calculator",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

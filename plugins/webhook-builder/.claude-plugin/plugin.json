@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-webhook-builder",
+  "description": "Build and validate webhook payloads with HMAC signing",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

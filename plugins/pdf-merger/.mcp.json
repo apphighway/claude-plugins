@@ -1,0 +1,9 @@
+{
+  "apphighway-pdf-merger": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/pdf-merger",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

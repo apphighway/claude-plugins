@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-sitemap-generator",
+  "description": "Generate XML sitemaps from URL lists",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-churn-predictor",
+  "description": "Predict customer churn from usage data using AI",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

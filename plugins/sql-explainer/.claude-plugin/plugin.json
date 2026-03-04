@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-sql-explainer",
+  "description": "Explain complex SQL queries in plain language with optimization tips",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

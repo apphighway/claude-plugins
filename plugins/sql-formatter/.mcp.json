@@ -1,0 +1,9 @@
+{
+  "apphighway-sql-formatter": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/sql-formatter",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

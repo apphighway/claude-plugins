@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-e2e-test-generator",
+  "description": "AI-generated end-to-end tests (Playwright/Cypress)",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

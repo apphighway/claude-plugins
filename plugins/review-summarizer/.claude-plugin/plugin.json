@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-review-summarizer",
+  "description": "Summarize product reviews into insights",
+  "version": "1.4.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

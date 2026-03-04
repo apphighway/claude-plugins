@@ -1,0 +1,9 @@
+{
+  "apphighway-excel-to-json": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/excel-to-json",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

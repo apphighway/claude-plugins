@@ -1,0 +1,9 @@
+{
+  "name": "apphighway-technical-spec-generator",
+  "description": "AI-generated technical specification documents",
+  "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  }
+}

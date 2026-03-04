@@ -1,0 +1,9 @@
+{
+  "apphighway-speech-to-text": {
+    "type": "http",
+    "url": "https://apphighway.com/api/mcp/speech-to-text",
+    "headers": {
+      "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
+    }
+  }
+}

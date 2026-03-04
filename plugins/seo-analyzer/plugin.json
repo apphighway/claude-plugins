@@ -2,8 +2,13 @@
   "name": "apphighway-seo-analyzer",
   "description": "AI-powered SEO analysis with scoring and recommendations",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-seo-analyzer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/seo-analyzer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-text-summarization",
   "description": "Summarize long texts into concise summaries",
   "version": "2.1.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-text-summarization": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/text-summarization",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

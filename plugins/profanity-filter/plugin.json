@@ -2,8 +2,13 @@
   "name": "apphighway-profanity-filter",
   "description": "Detect and filter profanity in text",
   "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-profanity-filter": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/profanity-filter",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

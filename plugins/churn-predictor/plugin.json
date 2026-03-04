@@ -2,8 +2,13 @@
   "name": "apphighway-churn-predictor",
   "description": "Predict customer churn from usage data using AI",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-churn-predictor": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/churn-predictor",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

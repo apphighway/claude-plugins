@@ -2,8 +2,13 @@
   "name": "apphighway-speech-to-text",
   "description": "Transcribe audio to text with timestamps",
   "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-speech-to-text": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/speech-to-text",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

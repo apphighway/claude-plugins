@@ -2,8 +2,13 @@
   "name": "apphighway-color-converter",
   "description": "Convert between color formats (HEX, RGB, HSL)",
   "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-color-converter": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/color-converter",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-bundle-size-analyzer",
   "description": "Analyze npm package sizes and suggest lighter alternatives",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-bundle-size-analyzer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/bundle-size-analyzer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

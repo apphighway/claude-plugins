@@ -2,8 +2,13 @@
   "name": "apphighway-resume-analyzer",
   "description": "AI-powered resume analysis with ATS scoring and skills extraction",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-resume-analyzer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/resume-analyzer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

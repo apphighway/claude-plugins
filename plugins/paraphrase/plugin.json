@@ -2,8 +2,13 @@
   "name": "apphighway-paraphrase",
   "description": "Rewrite text while preserving meaning",
   "version": "1.6.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-paraphrase": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/paraphrase",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

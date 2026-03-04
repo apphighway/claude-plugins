@@ -2,8 +2,13 @@
   "name": "apphighway-feature-idea-generator",
   "description": "Generate product feature ideas using AI",
   "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-feature-idea-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/feature-idea-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

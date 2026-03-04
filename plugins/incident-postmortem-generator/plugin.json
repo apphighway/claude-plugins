@@ -2,8 +2,13 @@
   "name": "apphighway-incident-postmortem-generator",
   "description": "AI-generated blameless incident postmortems",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-incident-postmortem-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/incident-postmortem-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

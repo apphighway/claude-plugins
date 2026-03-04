@@ -2,8 +2,13 @@
   "name": "apphighway-crypto-price",
   "description": "Get real-time cryptocurrency prices via CoinGecko API",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-crypto-price": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/crypto-price",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

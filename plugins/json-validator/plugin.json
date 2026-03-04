@@ -2,8 +2,13 @@
   "name": "apphighway-json-validator",
   "description": "Validate JSON against schemas with detailed error reports",
   "version": "2.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-json-validator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/json-validator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

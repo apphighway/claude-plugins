@@ -2,8 +2,13 @@
   "name": "apphighway-json-diff",
   "description": "Compare two JSON objects and output structured differences",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-json-diff": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/json-diff",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

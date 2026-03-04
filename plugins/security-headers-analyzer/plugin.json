@@ -2,8 +2,13 @@
   "name": "apphighway-security-headers-analyzer",
   "description": "Analyze HTTP security headers with scoring",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-security-headers-analyzer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/security-headers-analyzer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-url-shortener",
   "description": "Generate short URLs with tracking",
   "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-url-shortener": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/url-shortener",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

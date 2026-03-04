@@ -2,8 +2,13 @@
   "name": "apphighway-alt-text-generator",
   "description": "Generate accessible alt text descriptions following WCAG guidelines",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-alt-text-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/alt-text-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

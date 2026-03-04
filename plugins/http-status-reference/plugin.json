@@ -2,8 +2,13 @@
   "name": "apphighway-http-status-reference",
   "description": "Look up HTTP status codes with descriptions and troubleshooting",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-http-status-reference": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/http-status-reference",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

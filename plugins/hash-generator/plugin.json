@@ -2,8 +2,13 @@
   "name": "apphighway-hash-generator",
   "description": "Generate MD5, SHA-256, and other hashes",
   "version": "1.5.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-hash-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/hash-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-data-anonymizer",
   "description": "Anonymize PII in text data using AI",
   "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-data-anonymizer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/data-anonymizer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

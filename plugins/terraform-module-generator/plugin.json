@@ -2,8 +2,13 @@
   "name": "apphighway-terraform-module-generator",
   "description": "AI-generated Terraform modules for cloud infrastructure",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-terraform-module-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/terraform-module-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

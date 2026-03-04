@@ -2,8 +2,13 @@
   "name": "apphighway-code-reviewer",
   "description": "AI-powered deep code review with security analysis and fix suggestions",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-code-reviewer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/code-reviewer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-financial-report-analyzer",
   "description": "AI-powered financial report analysis with KPIs and recommendations",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-financial-report-analyzer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/financial-report-analyzer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

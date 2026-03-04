@@ -2,8 +2,13 @@
   "name": "apphighway-title-generator",
   "description": "Generate catchy titles and headlines",
   "version": "1.3.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-title-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/title-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

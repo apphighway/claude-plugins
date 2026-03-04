@@ -2,8 +2,13 @@
   "name": "apphighway-website-analyzer",
   "description": "Comprehensive website analysis — SEO, performance, security, accessibility, and tech detection",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-website-analyzer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/website-analyzer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

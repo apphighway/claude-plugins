@@ -2,8 +2,13 @@
   "name": "apphighway-sentiment-analysis",
   "description": "Analyze text sentiment with confidence scores",
   "version": "2.3.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-sentiment-analysis": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/sentiment-analysis",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

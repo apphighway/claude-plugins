@@ -2,8 +2,13 @@
   "name": "apphighway-css-minifier",
   "description": "Minify CSS by removing comments and whitespace",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-css-minifier": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/css-minifier",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

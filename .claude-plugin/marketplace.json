@@ -1,1761 +1,2552 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "apphighway-tools",
+  "description": "159 MCP tools for AI agents — apphighway.com",
   "owner": {
     "name": "AppHighway",
     "email": "team@apphighway.com"
   },
-  "metadata": {
-    "description": "159 MCP tools for AI agents — apphighway.com",
-    "version": "1.0.0",
-    "pluginRoot": "../plugins",
-    "generatedAt": "2026-03-04T09:36:57.973Z"
-  },
   "plugins": [
     {
-      "name": "uuid-generator",
-      "source": "../plugins/uuid-generator",
+      "name": "apphighway-uuid-generator",
       "description": "Generate UUIDs (v4, v5, v7) in bulk",
+      "version": "2.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/uuid-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "sentiment-analysis",
-      "source": "../plugins/sentiment-analysis",
+      "name": "apphighway-sentiment-analysis",
       "description": "Analyze text sentiment with confidence scores",
+      "version": "2.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/sentiment-analysis",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "text-generation",
-      "source": "../plugins/text-generation",
+      "name": "apphighway-text-generation",
       "description": "Generate text from prompts with style control",
+      "version": "2.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/text-generation",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "hash-generator",
-      "source": "../plugins/hash-generator",
+      "name": "apphighway-hash-generator",
       "description": "Generate MD5, SHA-256, and other hashes",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/hash-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "language-translation",
-      "source": "../plugins/language-translation",
+      "name": "apphighway-language-translation",
       "description": "Translate text between 50+ languages",
+      "version": "2.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/language-translation",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "structify",
-      "source": "../plugins/structify",
+      "name": "apphighway-structify",
       "description": "Convert unstructured text to structured JSON using AI",
+      "version": "2.1.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/structify",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "image-resize",
-      "source": "../plugins/image-resize",
+      "name": "apphighway-image-resize",
       "description": "Resize and optimize images in bulk",
+      "version": "2.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/image-resize",
       "category": "productivity",
-      "keywords": [
+      "tags": [
         "productivity",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "text-summarization",
-      "source": "../plugins/text-summarization",
+      "name": "apphighway-text-summarization",
       "description": "Summarize long texts into concise summaries",
+      "version": "2.1.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/text-summarization",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "currency-converter",
-      "source": "../plugins/currency-converter",
+      "name": "apphighway-currency-converter",
       "description": "Convert between 150+ world currencies",
+      "version": "2.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/currency-converter",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "grammar-checker",
-      "source": "../plugins/grammar-checker",
+      "name": "apphighway-grammar-checker",
       "description": "Check and correct grammar, spelling, and style",
+      "version": "1.9.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/grammar-checker",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "chatbot-completion",
-      "source": "../plugins/chatbot-completion",
+      "name": "apphighway-chatbot-completion",
       "description": "Generate conversational AI responses",
+      "version": "1.8.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/chatbot-completion",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "password-generator",
-      "source": "../plugins/password-generator",
-      "description": "Generate secure random passwords",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "csv-to-json",
-      "source": "../plugins/csv-to-json",
+      "name": "apphighway-csv-to-json",
       "description": "Convert CSV data to structured JSON with type inference",
+      "version": "1.8.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/csv-to-json",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "email-validator",
-      "source": "../plugins/email-validator",
+      "name": "apphighway-password-generator",
+      "description": "Generate secure random passwords",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/password-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-email-validator",
       "description": "Validate email addresses with DNS and format checks",
+      "version": "1.7.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/email-validator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "weather-forecast",
-      "source": "../plugins/weather-forecast",
+      "name": "apphighway-weather-forecast",
       "description": "Get weather forecasts for any location",
+      "version": "1.7.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/weather-forecast",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "entity-extraction",
-      "source": "../plugins/entity-extraction",
+      "name": "apphighway-entity-extraction",
       "description": "Extract named entities from text using AI",
+      "version": "1.8.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/entity-extraction",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "base64-encode-decode",
-      "source": "../plugins/base64-encode-decode",
+      "name": "apphighway-base64-encode-decode",
       "description": "Encode and decode Base64 strings",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/base64-encode-decode",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "text-to-speech",
-      "source": "../plugins/text-to-speech",
+      "name": "apphighway-text-to-speech",
       "description": "Convert text to natural-sounding audio",
+      "version": "1.7.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/text-to-speech",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "url-metadata",
-      "source": "../plugins/url-metadata",
+      "name": "apphighway-url-metadata",
       "description": "Extract metadata from any URL",
+      "version": "1.8.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/url-metadata",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "json-validator",
-      "source": "../plugins/json-validator",
+      "name": "apphighway-json-validator",
       "description": "Validate JSON against schemas with detailed error reports",
+      "version": "2.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/json-validator",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "ocr",
-      "source": "../plugins/ocr",
+      "name": "apphighway-ocr",
       "description": "Extract text from images using AI vision",
+      "version": "1.8.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/ocr",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "code-generator",
-      "source": "../plugins/code-generator",
+      "name": "apphighway-code-generator",
       "description": "Generate code from natural language descriptions",
+      "version": "1.6.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/code-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "unit-converter",
-      "source": "../plugins/unit-converter",
+      "name": "apphighway-unit-converter",
       "description": "Convert between measurement units",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/unit-converter",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "language-detection",
-      "source": "../plugins/language-detection",
+      "name": "apphighway-language-detection",
       "description": "Detect the language of any text",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/language-detection",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "json-to-csv",
-      "source": "../plugins/json-to-csv",
+      "name": "apphighway-json-to-csv",
       "description": "Convert JSON arrays to CSV format",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/json-to-csv",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "ip-geolocation",
-      "source": "../plugins/ip-geolocation",
+      "name": "apphighway-ip-geolocation",
       "description": "Geolocate IP addresses worldwide",
+      "version": "1.6.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/ip-geolocation",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "html-to-markdown",
-      "source": "../plugins/html-to-markdown",
+      "name": "apphighway-html-to-markdown",
       "description": "Convert HTML pages to clean Markdown",
+      "version": "1.7.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/html-to-markdown",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "paraphrase",
-      "source": "../plugins/paraphrase",
+      "name": "apphighway-paraphrase",
       "description": "Rewrite text while preserving meaning",
+      "version": "1.6.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/paraphrase",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "pdf-to-text",
-      "source": "../plugins/pdf-to-text",
-      "description": "Extract text content from PDF documents",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "qr-generator",
-      "source": "../plugins/qr-generator",
+      "name": "apphighway-qr-generator",
       "description": "Generate QR codes with custom styling",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/qr-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "xml-to-json",
-      "source": "../plugins/xml-to-json",
+      "name": "apphighway-pdf-to-text",
+      "description": "Extract text content from PDF documents",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/pdf-to-text",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-xml-to-json",
       "description": "Parse XML documents into clean JSON",
+      "version": "1.6.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/xml-to-json",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "regex-explainer",
-      "source": "../plugins/regex-explainer",
+      "name": "apphighway-regex-explainer",
       "description": "Explain, generate, and test regular expressions with AI and server-side execution",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/regex-explainer",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "dns-lookup",
-      "source": "../plugins/dns-lookup",
+      "name": "apphighway-dns-lookup",
       "description": "Perform DNS queries for any domain",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/dns-lookup",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "speech-to-text",
-      "source": "../plugins/speech-to-text",
+      "name": "apphighway-speech-to-text",
       "description": "Transcribe audio to text with timestamps",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/speech-to-text",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "timezone-converter",
-      "source": "../plugins/timezone-converter",
+      "name": "apphighway-timezone-converter",
       "description": "Convert times between timezones worldwide",
+      "version": "1.6.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/timezone-converter",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "text-embedding",
-      "source": "../plugins/text-embedding",
+      "name": "apphighway-text-embedding",
       "description": "Generate vector embeddings for text",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/text-embedding",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "keyword-extractor",
-      "source": "../plugins/keyword-extractor",
+      "name": "apphighway-keyword-extractor",
       "description": "Extract keywords and key phrases from text",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/keyword-extractor",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "code-docstring",
-      "source": "../plugins/code-docstring",
-      "description": "Generate documentation for code functions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "url-shortener",
-      "source": "../plugins/url-shortener",
+      "name": "apphighway-url-shortener",
       "description": "Generate short URLs with tracking",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/url-shortener",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "markdown-to-html",
-      "source": "../plugins/markdown-to-html",
+      "name": "apphighway-code-docstring",
+      "description": "Generate documentation for code functions",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/code-docstring",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-markdown-to-html",
       "description": "Render Markdown to sanitized HTML",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/markdown-to-html",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "yaml-to-json",
-      "source": "../plugins/yaml-to-json",
-      "description": "Convert YAML to JSON with schema validation",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "geo-locate",
-      "source": "../plugins/geo-locate",
+      "name": "apphighway-geo-locate",
       "description": "Geocode addresses and coordinates",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/geo-locate",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "pdf-merger",
-      "source": "../plugins/pdf-merger",
-      "description": "Merge multiple PDF documents into one",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
+      "name": "apphighway-yaml-to-json",
+      "description": "Convert YAML to JSON with schema validation",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/yaml-to-json",
+      "category": "data",
+      "tags": [
+        "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "content-classifier",
-      "source": "../plugins/content-classifier",
+      "name": "apphighway-content-classifier",
       "description": "Classify text into custom categories using AI",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/content-classifier",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "screenshot-capture",
-      "source": "../plugins/screenshot-capture",
+      "name": "apphighway-pdf-merger",
+      "description": "Merge multiple PDF documents into one",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/pdf-merger",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-screenshot-capture",
       "description": "Capture screenshots of any webpage",
+      "version": "1.6.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/screenshot-capture",
       "category": "productivity",
-      "keywords": [
+      "tags": [
         "productivity",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "excel-to-json",
-      "source": "../plugins/excel-to-json",
+      "name": "apphighway-excel-to-json",
       "description": "Parse Excel spreadsheets into JSON data",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/excel-to-json",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "whois-lookup",
-      "source": "../plugins/whois-lookup",
-      "description": "Query domain registration information",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "question-answering",
-      "source": "../plugins/question-answering",
-      "description": "Answer questions based on provided context",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "sql-optimizer",
-      "source": "../plugins/sql-optimizer",
+      "name": "apphighway-sql-optimizer",
       "description": "AI-powered SQL query optimization with performance scoring and index suggestions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/sql-optimizer",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "title-generator",
-      "source": "../plugins/title-generator",
+      "name": "apphighway-question-answering",
+      "description": "Answer questions based on provided context",
+      "version": "1.7.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/question-answering",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-whois-lookup",
+      "description": "Query domain registration information",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/whois-lookup",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-title-generator",
       "description": "Generate catchy titles and headlines",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/title-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "color-converter",
-      "source": "../plugins/color-converter",
+      "name": "apphighway-color-converter",
       "description": "Convert between color formats (HEX, RGB, HSL)",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/color-converter",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "profanity-filter",
-      "source": "../plugins/profanity-filter",
+      "name": "apphighway-profanity-filter",
       "description": "Detect and filter profanity in text",
+      "version": "1.5.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/profanity-filter",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "semantic-search",
-      "source": "../plugins/semantic-search",
-      "description": "Search documents by meaning, not just keywords",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "tone-rewriter",
-      "source": "../plugins/tone-rewriter",
-      "description": "Rewrite text in a different tone or style",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "plagiarism-detector",
-      "source": "../plugins/plagiarism-detector",
+      "name": "apphighway-plagiarism-detector",
       "description": "Detect plagiarism and content similarity",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/plagiarism-detector",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "business-name",
-      "source": "../plugins/business-name",
+      "name": "apphighway-semantic-search",
+      "description": "Search documents by meaning, not just keywords",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/semantic-search",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-tone-rewriter",
+      "description": "Rewrite text in a different tone or style",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/tone-rewriter",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-business-name",
       "description": "Generate creative business name suggestions",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/business-name",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "intent-detection",
-      "source": "../plugins/intent-detection",
+      "name": "apphighway-intent-detection",
       "description": "Detect user intent from natural language",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/intent-detection",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "barcode-generator",
-      "source": "../plugins/barcode-generator",
+      "name": "apphighway-barcode-generator",
       "description": "Generate barcodes in various formats",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/barcode-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "random-image",
-      "source": "../plugins/random-image",
+      "name": "apphighway-random-image",
       "description": "Generate placeholder images for development",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/random-image",
       "category": "productivity",
-      "keywords": [
+      "tags": [
         "productivity",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "html-sanitizer",
-      "source": "../plugins/html-sanitizer",
-      "description": "Sanitize HTML to prevent XSS attacks",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "code-reviewer",
-      "source": "../plugins/code-reviewer",
+      "name": "apphighway-code-reviewer",
       "description": "AI-powered deep code review with security analysis and fix suggestions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/code-reviewer",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "error-log-summarizer",
-      "source": "../plugins/error-log-summarizer",
-      "description": "Summarize and categorize error logs using AI",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
+      "name": "apphighway-html-sanitizer",
+      "description": "Sanitize HTML to prevent XSS attacks",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/html-sanitizer",
+      "category": "data",
+      "tags": [
+        "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "meeting-summarizer",
-      "source": "../plugins/meeting-summarizer",
+      "name": "apphighway-meeting-summarizer",
       "description": "AI-powered meeting transcript analysis with action items and decisions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/meeting-summarizer",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "readability-analyzer",
-      "source": "../plugins/readability-analyzer",
+      "name": "apphighway-readability-analyzer",
       "description": "Analyze text readability with multiple metrics",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/readability-analyzer",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "data-anonymizer",
-      "source": "../plugins/data-anonymizer",
-      "description": "Anonymize PII in text data using AI",
-      "category": "data",
-      "keywords": [
-        "data",
+      "name": "apphighway-error-log-summarizer",
+      "description": "Summarize and categorize error logs using AI",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/error-log-summarizer",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "review-summarizer",
-      "source": "../plugins/review-summarizer",
+      "name": "apphighway-review-summarizer",
       "description": "Summarize product reviews into insights",
+      "version": "1.4.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/review-summarizer",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "number-summarizer",
-      "source": "../plugins/number-summarizer",
+      "name": "apphighway-data-anonymizer",
+      "description": "Anonymize PII in text data using AI",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/data-anonymizer",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-number-summarizer",
       "description": "Calculate statistics from number sets",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/number-summarizer",
       "category": "data",
-      "keywords": [
+      "tags": [
         "data",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "website-analyzer",
-      "source": "../plugins/website-analyzer",
-      "description": "Comprehensive website analysis — SEO, performance, security, accessibility, and tech detection",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "text-outline",
-      "source": "../plugins/text-outline",
+      "name": "apphighway-text-outline",
       "description": "Generate structured outlines for any topic",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/text-outline",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "changelog-generator",
-      "source": "../plugins/changelog-generator",
-      "description": "Generate changelogs from commit messages",
+      "name": "apphighway-website-analyzer",
+      "description": "Comprehensive website analysis — SEO, performance, security, accessibility, and tech detection",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/website-analyzer",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "topic-modeling",
-      "source": "../plugins/topic-modeling",
-      "description": "Discover topics in text collections",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "product-summary",
-      "source": "../plugins/product-summary",
+      "name": "apphighway-product-summary",
       "description": "Generate product descriptions from features",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/product-summary",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "resume-analyzer",
-      "source": "../plugins/resume-analyzer",
-      "description": "AI-powered resume analysis with ATS scoring and skills extraction",
+      "name": "apphighway-changelog-generator",
+      "description": "Generate changelogs from commit messages",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/changelog-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-topic-modeling",
+      "description": "Discover topics in text collections",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/topic-modeling",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "pricing-page-parser",
-      "source": "../plugins/pricing-page-parser",
-      "description": "Extract pricing data from web pages",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "feature-idea-generator",
-      "source": "../plugins/feature-idea-generator",
+      "name": "apphighway-feature-idea-generator",
       "description": "Generate product feature ideas using AI",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/feature-idea-generator",
       "category": "dev-tools",
-      "keywords": [
+      "tags": [
         "dev-tools",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "contract-analyzer",
-      "source": "../plugins/contract-analyzer",
-      "description": "AI-powered legal document analysis with risk assessment and plain-language summary",
+      "name": "apphighway-pricing-page-parser",
+      "description": "Extract pricing data from web pages",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/pricing-page-parser",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-resume-analyzer",
+      "description": "AI-powered resume analysis with ATS scoring and skills extraction",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/resume-analyzer",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "qa-extractor",
-      "source": "../plugins/qa-extractor",
+      "name": "apphighway-qa-extractor",
       "description": "Extract Q&A pairs from content",
+      "version": "1.3.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/qa-extractor",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "feedback-cluster",
-      "source": "../plugins/feedback-cluster",
+      "name": "apphighway-contract-analyzer",
+      "description": "AI-powered legal document analysis with risk assessment and plain-language summary",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/contract-analyzer",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-feedback-cluster",
       "description": "Cluster user feedback into themes",
+      "version": "1.2.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/feedback-cluster",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "pitch-deck-analyzer",
-      "source": "../plugins/pitch-deck-analyzer",
+      "name": "apphighway-pitch-deck-analyzer",
       "description": "AI-powered pitch deck analysis with investor readiness scoring",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/pitch-deck-analyzer",
       "category": "ai",
-      "keywords": [
+      "tags": [
         "ai",
         "mcp",
         "apphighway"
       ]
     },
     {
-      "name": "json-diff",
-      "source": "../plugins/json-diff",
-      "description": "Compare two JSON objects and output structured differences",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "ical-generator",
-      "source": "../plugins/ical-generator",
-      "description": "Create calendar events in .ics format",
-      "category": "communication",
-      "keywords": [
-        "communication",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "graphql-schema-generator",
-      "source": "../plugins/graphql-schema-generator",
-      "description": "AI-generated GraphQL SDL schemas from descriptions",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "mortgage-calculator",
-      "source": "../plugins/mortgage-calculator",
-      "description": "Calculate mortgage payments with amortization schedule",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "fake-data-generator",
-      "source": "../plugins/fake-data-generator",
-      "description": "Generate realistic test data (names, emails, addresses)",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "accessibility-checker",
-      "source": "../plugins/accessibility-checker",
-      "description": "AI-powered WCAG 2.1 compliance checker",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "prometheus-query-builder",
-      "source": "../plugins/prometheus-query-builder",
-      "description": "AI-powered natural language to PromQL conversion",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "invoice-generator",
-      "source": "../plugins/invoice-generator",
-      "description": "Generate structured invoice data with line items, taxes, and totals",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "alt-text-generator",
-      "source": "../plugins/alt-text-generator",
-      "description": "Generate accessible alt text descriptions following WCAG guidelines",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "query-builder",
-      "source": "../plugins/query-builder",
-      "description": "Convert natural language to SQL queries with schema context",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "incident-postmortem-generator",
-      "source": "../plugins/incident-postmortem-generator",
-      "description": "AI-generated blameless incident postmortems",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "crypto-price",
-      "source": "../plugins/crypto-price",
-      "description": "Get real-time cryptocurrency prices via CoinGecko API",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "schema-analyzer",
-      "source": "../plugins/schema-analyzer",
-      "description": "AI-powered database schema analysis with optimization suggestions",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "data-profiler",
-      "source": "../plugins/data-profiler",
-      "description": "Profile CSV/JSON datasets with statistics and quality analysis",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "htaccess-generator",
-      "source": "../plugins/htaccess-generator",
-      "description": "Generate Apache .htaccess rules for redirects, security, and caching",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "migration-generator",
-      "source": "../plugins/migration-generator",
-      "description": "Generate SQL migrations from schema diff descriptions",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "sql-formatter",
-      "source": "../plugins/sql-formatter",
-      "description": "Format and indent SQL queries for readability",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "http-status-reference",
-      "source": "../plugins/http-status-reference",
-      "description": "Look up HTTP status codes with descriptions and troubleshooting",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "changelog-parser",
-      "source": "../plugins/changelog-parser",
-      "description": "Parse changelogs into customer-friendly release announcements",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "tax-calculator",
-      "source": "../plugins/tax-calculator",
-      "description": "Estimate income tax for DE/US/UK with progressive brackets",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "toml-to-json",
-      "source": "../plugins/toml-to-json",
-      "description": "Convert between TOML and JSON formats",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "spreadsheet-analyzer",
-      "source": "../plugins/spreadsheet-analyzer",
-      "description": "Analyze CSV/JSON data for quality issues and statistics",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "funnel-analyzer",
-      "source": "../plugins/funnel-analyzer",
-      "description": "Analyze conversion funnels with AI insights",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "release-notes-generator",
-      "source": "../plugins/release-notes-generator",
-      "description": "AI-generated release notes from changes and commits",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "financial-report-analyzer",
-      "source": "../plugins/financial-report-analyzer",
-      "description": "AI-powered financial report analysis with KPIs and recommendations",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "seo-analyzer",
-      "source": "../plugins/seo-analyzer",
-      "description": "AI-powered SEO analysis with scoring and recommendations",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "readme-generator",
-      "source": "../plugins/readme-generator",
-      "description": "AI-generated project README from description and tech stack",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "api-doc-generator",
-      "source": "../plugins/api-doc-generator",
-      "description": "Generate OpenAPI specs from code using AI",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "churn-predictor",
-      "source": "../plugins/churn-predictor",
-      "description": "Predict customer churn from usage data using AI",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "csp-generator",
-      "source": "../plugins/csp-generator",
-      "description": "Generate Content Security Policy headers from rules",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "env-validator",
-      "source": "../plugins/env-validator",
-      "description": "Validate .env files against schema definitions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "cron-explainer",
-      "source": "../plugins/cron-explainer",
-      "description": "Translate cron expressions to human-readable descriptions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "prompt-optimizer",
-      "source": "../plugins/prompt-optimizer",
-      "description": "AI-powered prompt optimization for LLMs",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "vulnerability-scanner",
-      "source": "../plugins/vulnerability-scanner",
-      "description": "AI scans code for OWASP Top 10 vulnerabilities",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "test-generator",
-      "source": "../plugins/test-generator",
-      "description": "AI-generated unit tests from code (Jest, Vitest, pytest)",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "social-media-post-generator",
-      "source": "../plugins/social-media-post-generator",
-      "description": "AI-generated platform-optimized social media posts",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "technical-spec-generator",
-      "source": "../plugins/technical-spec-generator",
-      "description": "AI-generated technical specification documents",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "user-story-generator",
-      "source": "../plugins/user-story-generator",
-      "description": "AI-generated user stories with acceptance criteria",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "ab-test-calculator",
-      "source": "../plugins/ab-test-calculator",
-      "description": "Calculate A/B test statistical significance",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "api-request-builder",
-      "source": "../plugins/api-request-builder",
-      "description": "Build HTTP requests as cURL/fetch/axios/Python code",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "security-headers-analyzer",
-      "source": "../plugins/security-headers-analyzer",
-      "description": "Analyze HTTP security headers with scoring",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "sql-explainer",
-      "source": "../plugins/sql-explainer",
-      "description": "Explain complex SQL queries in plain language with optimization tips",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "commit-message-generator",
-      "source": "../plugins/commit-message-generator",
-      "description": "Generate conventional commit messages from git diffs",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "regex-generator",
-      "source": "../plugins/regex-generator",
-      "description": "Generate regex patterns from natural language descriptions",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "meta-tag-generator",
-      "source": "../plugins/meta-tag-generator",
-      "description": "Generate OG, Twitter Card, and Schema.org meta tags",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "code-converter",
-      "source": "../plugins/code-converter",
-      "description": "Convert code between programming languages",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "pr-description-generator",
-      "source": "../plugins/pr-description-generator",
-      "description": "Generate structured pull request descriptions from diffs",
-      "category": "ai",
-      "keywords": [
-        "ai",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "jwt-decoder",
-      "source": "../plugins/jwt-decoder",
-      "description": "Decode JWT tokens showing header, payload, and expiry",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "password-strength",
-      "source": "../plugins/password-strength",
-      "description": "Analyze password strength with entropy and pattern detection",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "k8s-manifest-generator",
-      "source": "../plugins/k8s-manifest-generator",
-      "description": "AI-generated Kubernetes manifests (Deployment, Service, Ingress)",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "dockerfile-generator",
-      "source": "../plugins/dockerfile-generator",
-      "description": "AI-generated optimized Dockerfiles from tech stack",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "nginx-config-generator",
-      "source": "../plugins/nginx-config-generator",
-      "description": "Generate Nginx configuration files",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "github-actions-generator",
-      "source": "../plugins/github-actions-generator",
-      "description": "AI-generated CI/CD workflows for GitHub Actions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "utm-builder",
-      "source": "../plugins/utm-builder",
-      "description": "Build UTM-tagged URLs for campaign tracking",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "bundle-size-analyzer",
-      "source": "../plugins/bundle-size-analyzer",
-      "description": "Analyze npm package sizes and suggest lighter alternatives",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "docker-compose-generator",
-      "source": "../plugins/docker-compose-generator",
-      "description": "AI-generated docker-compose.yml from service descriptions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "e2e-test-generator",
-      "source": "../plugins/e2e-test-generator",
-      "description": "AI-generated end-to-end tests (Playwright/Cypress)",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "openapi-spec-generator",
-      "source": "../plugins/openapi-spec-generator",
-      "description": "AI-generated OpenAPI 3.1 specifications from descriptions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "regex-tester",
-      "source": "../plugins/regex-tester",
-      "description": "Test regex patterns with captures and explanations",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "shell-script-generator",
-      "source": "../plugins/shell-script-generator",
-      "description": "AI-generated shell scripts from descriptions",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "load-test-generator",
-      "source": "../plugins/load-test-generator",
-      "description": "Generate load test scripts for k6, Locust, and Artillery",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "compliance-checker",
-      "source": "../plugins/compliance-checker",
-      "description": "Check code for GDPR, HIPAA, PCI-DSS, SOC2 compliance",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "token-counter",
-      "source": "../plugins/token-counter",
-      "description": "Count LLM tokens with model-specific ratios",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "semver-calculator",
-      "source": "../plugins/semver-calculator",
-      "description": "Parse, compare, and validate semantic versions and ranges",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "base-converter",
-      "source": "../plugins/base-converter",
-      "description": "Convert numbers between binary, octal, decimal, hex, and custom bases",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "chmod-calculator",
-      "source": "../plugins/chmod-calculator",
-      "description": "Convert Unix file permissions between octal and symbolic formats",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "svg-optimizer",
-      "source": "../plugins/svg-optimizer",
-      "description": "Optimize SVGs by removing unnecessary elements",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "terraform-module-generator",
-      "source": "../plugins/terraform-module-generator",
-      "description": "AI-generated Terraform modules for cloud infrastructure",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "color-palette-generator",
-      "source": "../plugins/color-palette-generator",
-      "description": "Generate harmonious color palettes from a base color",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "mongodb-query-builder",
-      "source": "../plugins/mongodb-query-builder",
-      "description": "AI-powered natural language to MongoDB query conversion",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "css-minifier",
-      "source": "../plugins/css-minifier",
-      "description": "Minify CSS by removing comments and whitespace",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "robots-txt-generator",
-      "source": "../plugins/robots-txt-generator",
-      "description": "Generate robots.txt from rules",
-      "category": "productivity",
-      "keywords": [
-        "productivity",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "webhook-builder",
-      "source": "../plugins/webhook-builder",
-      "description": "Build and validate webhook payloads with HMAC signing",
-      "category": "automation",
-      "keywords": [
-        "automation",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "loan-calculator",
-      "source": "../plugins/loan-calculator",
-      "description": "Calculate loan payments, interest, and amortization schedules",
-      "category": "data",
-      "keywords": [
-        "data",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "secret-detector",
-      "source": "../plugins/secret-detector",
-      "description": "Scan code for leaked secrets (API keys, tokens, passwords)",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "cors-config-generator",
-      "source": "../plugins/cors-config-generator",
-      "description": "Generate CORS configurations for multiple frameworks",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "workflow-generator",
-      "source": "../plugins/workflow-generator",
-      "description": "AI-generated automation workflows (n8n/Zapier format)",
-      "category": "automation",
-      "keywords": [
-        "automation",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "ip-subnet-calculator",
-      "source": "../plugins/ip-subnet-calculator",
-      "description": "Calculate IPv4 subnet details from CIDR notation",
-      "category": "dev-tools",
-      "keywords": [
-        "dev-tools",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "email-template-generator",
-      "source": "../plugins/email-template-generator",
-      "description": "AI-generated responsive HTML email templates",
-      "category": "communication",
-      "keywords": [
-        "communication",
-        "mcp",
-        "apphighway"
-      ]
-    },
-    {
-      "name": "sitemap-generator",
-      "source": "../plugins/sitemap-generator",
+      "name": "apphighway-sitemap-generator",
       "description": "Generate XML sitemaps from URL lists",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/sitemap-generator",
       "category": "productivity",
-      "keywords": [
+      "tags": [
         "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-ical-generator",
+      "description": "Create calendar events in .ics format",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/ical-generator",
+      "category": "communication",
+      "tags": [
+        "communication",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-json-diff",
+      "description": "Compare two JSON objects and output structured differences",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/json-diff",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-mortgage-calculator",
+      "description": "Calculate mortgage payments with amortization schedule",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/mortgage-calculator",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-graphql-schema-generator",
+      "description": "AI-generated GraphQL SDL schemas from descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/graphql-schema-generator",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-fake-data-generator",
+      "description": "Generate realistic test data (names, emails, addresses)",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/fake-data-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-accessibility-checker",
+      "description": "AI-powered WCAG 2.1 compliance checker",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/accessibility-checker",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-prometheus-query-builder",
+      "description": "AI-powered natural language to PromQL conversion",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/prometheus-query-builder",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-invoice-generator",
+      "description": "Generate structured invoice data with line items, taxes, and totals",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/invoice-generator",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-alt-text-generator",
+      "description": "Generate accessible alt text descriptions following WCAG guidelines",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/alt-text-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-query-builder",
+      "description": "Convert natural language to SQL queries with schema context",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/query-builder",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-incident-postmortem-generator",
+      "description": "AI-generated blameless incident postmortems",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/incident-postmortem-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-crypto-price",
+      "description": "Get real-time cryptocurrency prices via CoinGecko API",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/crypto-price",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-schema-analyzer",
+      "description": "AI-powered database schema analysis with optimization suggestions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/schema-analyzer",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-data-profiler",
+      "description": "Profile CSV/JSON datasets with statistics and quality analysis",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/data-profiler",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-htaccess-generator",
+      "description": "Generate Apache .htaccess rules for redirects, security, and caching",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/htaccess-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-migration-generator",
+      "description": "Generate SQL migrations from schema diff descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/migration-generator",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-sql-formatter",
+      "description": "Format and indent SQL queries for readability",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/sql-formatter",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-http-status-reference",
+      "description": "Look up HTTP status codes with descriptions and troubleshooting",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/http-status-reference",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-changelog-parser",
+      "description": "Parse changelogs into customer-friendly release announcements",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/changelog-parser",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-tax-calculator",
+      "description": "Estimate income tax for DE/US/UK with progressive brackets",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/tax-calculator",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-toml-to-json",
+      "description": "Convert between TOML and JSON formats",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/toml-to-json",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-spreadsheet-analyzer",
+      "description": "Analyze CSV/JSON data for quality issues and statistics",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/spreadsheet-analyzer",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-funnel-analyzer",
+      "description": "Analyze conversion funnels with AI insights",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/funnel-analyzer",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-release-notes-generator",
+      "description": "AI-generated release notes from changes and commits",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/release-notes-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-financial-report-analyzer",
+      "description": "AI-powered financial report analysis with KPIs and recommendations",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/financial-report-analyzer",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-readme-generator",
+      "description": "AI-generated project README from description and tech stack",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/readme-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-seo-analyzer",
+      "description": "AI-powered SEO analysis with scoring and recommendations",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/seo-analyzer",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-api-doc-generator",
+      "description": "Generate OpenAPI specs from code using AI",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/api-doc-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-churn-predictor",
+      "description": "Predict customer churn from usage data using AI",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/churn-predictor",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-csp-generator",
+      "description": "Generate Content Security Policy headers from rules",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/csp-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-env-validator",
+      "description": "Validate .env files against schema definitions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/env-validator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-cron-explainer",
+      "description": "Translate cron expressions to human-readable descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/cron-explainer",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-prompt-optimizer",
+      "description": "AI-powered prompt optimization for LLMs",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/prompt-optimizer",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-vulnerability-scanner",
+      "description": "AI scans code for OWASP Top 10 vulnerabilities",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/vulnerability-scanner",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-test-generator",
+      "description": "AI-generated unit tests from code (Jest, Vitest, pytest)",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/test-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-technical-spec-generator",
+      "description": "AI-generated technical specification documents",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/technical-spec-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-social-media-post-generator",
+      "description": "AI-generated platform-optimized social media posts",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/social-media-post-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-user-story-generator",
+      "description": "AI-generated user stories with acceptance criteria",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/user-story-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-ab-test-calculator",
+      "description": "Calculate A/B test statistical significance",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/ab-test-calculator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-api-request-builder",
+      "description": "Build HTTP requests as cURL/fetch/axios/Python code",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/api-request-builder",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-sql-explainer",
+      "description": "Explain complex SQL queries in plain language with optimization tips",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/sql-explainer",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-security-headers-analyzer",
+      "description": "Analyze HTTP security headers with scoring",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/security-headers-analyzer",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-commit-message-generator",
+      "description": "Generate conventional commit messages from git diffs",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/commit-message-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-code-converter",
+      "description": "Convert code between programming languages",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/code-converter",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-regex-generator",
+      "description": "Generate regex patterns from natural language descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/regex-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-pr-description-generator",
+      "description": "Generate structured pull request descriptions from diffs",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/pr-description-generator",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-meta-tag-generator",
+      "description": "Generate OG, Twitter Card, and Schema.org meta tags",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/meta-tag-generator",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-jwt-decoder",
+      "description": "Decode JWT tokens showing header, payload, and expiry",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/jwt-decoder",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-password-strength",
+      "description": "Analyze password strength with entropy and pattern detection",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/password-strength",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-dockerfile-generator",
+      "description": "AI-generated optimized Dockerfiles from tech stack",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/dockerfile-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-github-actions-generator",
+      "description": "AI-generated CI/CD workflows for GitHub Actions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/github-actions-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-nginx-config-generator",
+      "description": "Generate Nginx configuration files",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/nginx-config-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-k8s-manifest-generator",
+      "description": "AI-generated Kubernetes manifests (Deployment, Service, Ingress)",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/k8s-manifest-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-bundle-size-analyzer",
+      "description": "Analyze npm package sizes and suggest lighter alternatives",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/bundle-size-analyzer",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-utm-builder",
+      "description": "Build UTM-tagged URLs for campaign tracking",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/utm-builder",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-e2e-test-generator",
+      "description": "AI-generated end-to-end tests (Playwright/Cypress)",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/e2e-test-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-openapi-spec-generator",
+      "description": "AI-generated OpenAPI 3.1 specifications from descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/openapi-spec-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-regex-tester",
+      "description": "Test regex patterns with captures and explanations",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/regex-tester",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-shell-script-generator",
+      "description": "AI-generated shell scripts from descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/shell-script-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-docker-compose-generator",
+      "description": "AI-generated docker-compose.yml from service descriptions",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/docker-compose-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-token-counter",
+      "description": "Count LLM tokens with model-specific ratios",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/token-counter",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-semver-calculator",
+      "description": "Parse, compare, and validate semantic versions and ranges",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/semver-calculator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-chmod-calculator",
+      "description": "Convert Unix file permissions between octal and symbolic formats",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/chmod-calculator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-base-converter",
+      "description": "Convert numbers between binary, octal, decimal, hex, and custom bases",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/base-converter",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-compliance-checker",
+      "description": "Check code for GDPR, HIPAA, PCI-DSS, SOC2 compliance",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/compliance-checker",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-load-test-generator",
+      "description": "Generate load test scripts for k6, Locust, and Artillery",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/load-test-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-svg-optimizer",
+      "description": "Optimize SVGs by removing unnecessary elements",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/svg-optimizer",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-terraform-module-generator",
+      "description": "AI-generated Terraform modules for cloud infrastructure",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/terraform-module-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-color-palette-generator",
+      "description": "Generate harmonious color palettes from a base color",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/color-palette-generator",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-mongodb-query-builder",
+      "description": "AI-powered natural language to MongoDB query conversion",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/mongodb-query-builder",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-css-minifier",
+      "description": "Minify CSS by removing comments and whitespace",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/css-minifier",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-robots-txt-generator",
+      "description": "Generate robots.txt from rules",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/robots-txt-generator",
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-webhook-builder",
+      "description": "Build and validate webhook payloads with HMAC signing",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/webhook-builder",
+      "category": "automation",
+      "tags": [
+        "automation",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-loan-calculator",
+      "description": "Calculate loan payments, interest, and amortization schedules",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/loan-calculator",
+      "category": "data",
+      "tags": [
+        "data",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-secret-detector",
+      "description": "Scan code for leaked secrets (API keys, tokens, passwords)",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/secret-detector",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-cors-config-generator",
+      "description": "Generate CORS configurations for multiple frameworks",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/cors-config-generator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-workflow-generator",
+      "description": "AI-generated automation workflows (n8n/Zapier format)",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/workflow-generator",
+      "category": "automation",
+      "tags": [
+        "automation",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-ip-subnet-calculator",
+      "description": "Calculate IPv4 subnet details from CIDR notation",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/ip-subnet-calculator",
+      "category": "dev-tools",
+      "tags": [
+        "dev-tools",
+        "mcp",
+        "apphighway"
+      ]
+    },
+    {
+      "name": "apphighway-email-template-generator",
+      "description": "AI-generated responsive HTML email templates",
+      "version": "1.0.0",
+      "author": {
+        "name": "AppHighway",
+        "email": "team@apphighway.com"
+      },
+      "source": "./plugins/email-template-generator",
+      "category": "communication",
+      "tags": [
+        "communication",
         "mcp",
         "apphighway"
       ]

@@ -2,8 +2,13 @@
   "name": "apphighway-excel-to-json",
   "description": "Parse Excel spreadsheets into JSON data",
   "version": "1.3.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-excel-to-json": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/excel-to-json",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-dockerfile-generator",
   "description": "AI-generated optimized Dockerfiles from tech stack",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-dockerfile-generator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/dockerfile-generator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

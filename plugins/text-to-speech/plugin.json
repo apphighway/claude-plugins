@@ -2,8 +2,13 @@
   "name": "apphighway-text-to-speech",
   "description": "Convert text to natural-sounding audio",
   "version": "1.7.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-text-to-speech": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/text-to-speech",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

@@ -2,8 +2,13 @@
   "name": "apphighway-language-translation",
   "description": "Translate text between 50+ languages",
   "version": "2.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-language-translation": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/language-translation",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

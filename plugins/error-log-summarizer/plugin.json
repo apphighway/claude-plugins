@@ -2,8 +2,13 @@
   "name": "apphighway-error-log-summarizer",
   "description": "Summarize and categorize error logs using AI",
   "version": "1.2.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-error-log-summarizer": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/error-log-summarizer",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

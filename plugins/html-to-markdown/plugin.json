@@ -2,8 +2,13 @@
   "name": "apphighway-html-to-markdown",
   "description": "Convert HTML pages to clean Markdown",
   "version": "1.7.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-html-to-markdown": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/html-to-markdown",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"

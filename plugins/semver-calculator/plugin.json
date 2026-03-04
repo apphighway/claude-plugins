@@ -2,8 +2,13 @@
   "name": "apphighway-semver-calculator",
   "description": "Parse, compare, and validate semantic versions and ranges",
   "version": "1.0.0",
+  "author": {
+    "name": "AppHighway",
+    "email": "team@apphighway.com"
+  },
   "mcpServers": {
     "apphighway-semver-calculator": {
+      "type": "http",
       "url": "https://apphighway.com/api/mcp/semver-calculator",
       "headers": {
         "Authorization": "Bearer ${APPHIGHWAY_API_KEY}"
